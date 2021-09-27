@@ -56,7 +56,7 @@
 		BRCB_Mix = Dialog.getCheckbox();
 		Batch_analysis = Dialog.getRadioButton();
 		
-// Checks to see if user is using ImageJ or FIJI and corrects the thresholding variable accordingly
+// Checks to see if user is using ImageJ or FIJI and corrects the thresholding iable accordingly
 		IJorFIJI = getVersion();
 			
 		if (startsWith(IJorFIJI, 1)){
@@ -115,7 +115,7 @@ if(Batch_analysis == "Yes") {
 	run("Set Scale...", "distance=0  known=0 pixel=1 unit= pixels");
 	
 // Creates custom file names for use later
-		var name0=getTitle;
+		 name0=getTitle;
 		name = newArray(name0, getTitle+"_SRM", getTitle+"_M1", getTitle+"_M2", getTitle+"_M3",
 				getTitle+"_M4", getTitle+"_M5", getTitle+"_M6", getTitle+"_M7", getTitle+"_M8",
 				getTitle+"_Mix Montage", getTitle+"_SRM100", getTitle+"_SRM50", getTitle+"_S1",
@@ -153,43 +153,43 @@ if(Batch_analysis == "Yes") {
 	};
 
 // Creates custom file paths for use later
-		var path0 = myDir1+name[0];
-		var path1 = myDir+name[2];
-		var path3 = myDir+name[3];
-		var path4 = myDir+name[4];
-		var path5 = myDir+name[5];
-		var path6 = myDir+name[6];
-		var path7 = myDir+name[7];
-		var path8 = myDir+name[8];
-		var path9 = myDir+name[9];
-		var path10 = myDir2+name[10];
+		 path0 = myDir1+name[0];
+		 path1 = myDir+name[2];
+		 path3 = myDir+name[3];
+		 path4 = myDir+name[4];
+		 path5 = myDir+name[5];
+		 path6 = myDir+name[6];
+		 path7 = myDir+name[7];
+		 path8 = myDir+name[8];
+		 path9 = myDir+name[9];
+		 path10 = myDir2+name[10];
 		
-		var path11 = myDir+name[11];
-		var path12 = myDir+name[12];
-		var path13 = myDir+name[13];
-		var path14 = myDir+name[14];
-		var path15 = myDir+name[15];
-		var path16 = myDir+name[16];
-		var path17 = myDir+name[17];
-		var path18 = myDir+name[18];
-		var path19 = myDir+name[19];
-		var path20 = myDir+name[20];
-		var path21 = myDir2+name[21];
+		 path11 = myDir+name[11];
+		 path12 = myDir+name[12];
+		 path13 = myDir+name[13];
+		 path14 = myDir+name[14];
+		 path15 = myDir+name[15];
+		 path16 = myDir+name[16];
+		 path17 = myDir+name[17];
+		 path18 = myDir+name[18];
+		 path19 = myDir+name[19];
+		 path20 = myDir+name[20];
+		 path21 = myDir2+name[21];
 		
-		var path23 = myDir+name[23];
-		var path24 = myDir+name[24];
-		var path25 = myDir+name[25];
-		var path26 = myDir+name[26];
-		var path27 = myDir+name[27];
-		var path28 = myDir+name[28];
-		var path29 = myDir+name[29];
-		var path30 = myDir+name[30];
+		 path23 = myDir+name[23];
+		 path24 = myDir+name[24];
+		 path25 = myDir+name[25];
+		 path26 = myDir+name[26];
+		 path27 = myDir+name[27];
+		 path28 = myDir+name[28];
+		 path29 = myDir+name[29];
+		 path30 = myDir+name[30];
 		
-		var path31 = myDir2+name[31];
-		var path32 = myDir2+name[32];
-		var path33 = myDir2+name[33];
-		var path34 = myDir2+name[34];
-		var path35 = myDir2+name[35];
+		 path31 = myDir2+name[31];
+		 path32 = myDir2+name[32];
+		 path33 = myDir2+name[33];
+		 path34 = myDir2+name[34];
+		 path35 = myDir2+name[35];
 
 
 // Runs all traditional segmentation algorithms		
@@ -1480,7 +1480,7 @@ if(Batch_analysis == "No") {
 	run("Set Scale...", "distance=0  known=0 pixel=1 unit= pixels");
 	
 // Creates custom file names for use later
-		var name0=getTitle;
+		 name0=getTitle;
 		name = newArray(name0, getTitle+"_SRM", getTitle+"_M1", getTitle+"_M2", getTitle+"_M3",
 				getTitle+"_M4", getTitle+"_M5", getTitle+"_M6", getTitle+"_M7", getTitle+"_M8",
 				getTitle+"_Mix Montage", getTitle+"_SRM100", getTitle+"_SRM50", getTitle+"_S1",
@@ -1518,43 +1518,43 @@ if(Batch_analysis == "No") {
 	};
 
 // Creates custom file paths for use later
-		var path0 = myDir1+name[0];
-		var path1 = myDir+name[2];
-		var path3 = myDir+name[3];
-		var path4 = myDir+name[4];
-		var path5 = myDir+name[5];
-		var path6 = myDir+name[6];
-		var path7 = myDir+name[7];
-		var path8 = myDir+name[8];
-		var path9 = myDir+name[9];
-		var path10 = myDir2+name[10];
+		 path0 = myDir1+name[0];
+		 path1 = myDir+name[2];
+		 path3 = myDir+name[3];
+		 path4 = myDir+name[4];
+		 path5 = myDir+name[5];
+		 path6 = myDir+name[6];
+		 path7 = myDir+name[7];
+		 path8 = myDir+name[8];
+		 path9 = myDir+name[9];
+		 path10 = myDir2+name[10];
 		
-		var path11 = myDir+name[11];
-		var path12 = myDir+name[12];
-		var path13 = myDir+name[13];
-		var path14 = myDir+name[14];
-		var path15 = myDir+name[15];
-		var path16 = myDir+name[16];
-		var path17 = myDir+name[17];
-		var path18 = myDir+name[18];
-		var path19 = myDir+name[19];
-		var path20 = myDir+name[20];
-		var path21 = myDir2+name[21];
+		 path11 = myDir+name[11];
+		 path12 = myDir+name[12];
+		 path13 = myDir+name[13];
+		 path14 = myDir+name[14];
+		 path15 = myDir+name[15];
+		 path16 = myDir+name[16];
+		 path17 = myDir+name[17];
+		 path18 = myDir+name[18];
+		 path19 = myDir+name[19];
+		 path20 = myDir+name[20];
+		 path21 = myDir2+name[21];
 		
-		var path23 = myDir+name[23];
-		var path24 = myDir+name[24];
-		var path25 = myDir+name[25];
-		var path26 = myDir+name[26];
-		var path27 = myDir+name[27];
-		var path28 = myDir+name[28];
-		var path29 = myDir+name[29];
-		var path30 = myDir+name[30];
+		 path23 = myDir+name[23];
+		 path24 = myDir+name[24];
+		 path25 = myDir+name[25];
+		 path26 = myDir+name[26];
+		 path27 = myDir+name[27];
+		 path28 = myDir+name[28];
+		 path29 = myDir+name[29];
+		 path30 = myDir+name[30];
 		
-		var path31 = myDir2+name[31];
-		var path32 = myDir2+name[32];
-		var path33 = myDir2+name[33];
-		var path34 = myDir2+name[34];
-		var path35 = myDir2+name[35];
+		 path31 = myDir2+name[31];
+		 path32 = myDir2+name[32];
+		 path33 = myDir2+name[33];
+		 path34 = myDir2+name[34];
+		 path35 = myDir2+name[35];
 		
 		
 // Runs all traditional segmentation algorithms		
